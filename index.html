@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<html>
+  <img src="table top.jpg" />
+  <body>
+    <audio controls="" preload="auto" autoplay=""
+    style="visibility: hidden;" >
+       <source src="mixkit-payout-award-1934.wav" type="audio/mpeg">
+       </source>
+    </audio>
+    <script src="./app.js"></script>
+    <div class="card">
+      <div class="row">
+        <div id="top"></div>
+        <p id="randomNumber"></p>
+        <div id="bottom"></div>
+      </div>
+      <div>
+        <button
+          type="button"
+          class="btn btn-secondary btn-lg"
+          id="clickMe"
+          value="click"
+          onclick="window.location.reload()"
+        >
+          <strong>DEAL</strong>
+        </button>
+      </div>
+      <div>
+        <button
+          type="button"
+          class="btn btn-secondary btn-lg"
+          id="clickMe2"
+          value="click"
+          onclick="onLoad()"
+        >
+          <strong>STOP</strong>
+        </button>
+      </div>
+    </div>
+  <script src="main.bundle.js"></script></body>
+</html>
