@@ -1,1 +1,65 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+/* * {
+  border: 1px dashed red;
+  min-height: 10px;
+} */
+
+.card {
+  background-color: white;
+  width: 350px;
+  height: 500px;
+  margin-left: 1200px;
+  margin-top: -800px;
+  display: grid;
+}
+.row {
+  background-color: white;
+  border-color: black;
+  border-radius: 20px;
+  display: table-cell;
+  vertical-align: middle;
+  box-shadow: 5px 10px;
+}
+
+#top {
+  font-size: 120px;
+  padding-left: 15px;
+  display: flex;
+  margin-bottom: 25px;
+  width: 80px;
+}
+#bottom {
+  font-size: 120px;
+  display: flex;
+  float: right;
+  margin-top: -110px;
+  padding-left: 15px;
+  transform-origin: 1 1;
+  transform: rotate(180deg);
+  width: 80px;
+}
+p {
+  font-size: 135px;
+  margin-top: 15px;
+  width: 350px;
+  justify-content: center;
+  display: flex;
+}
+.btn {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  width: 200px;
+  margin-top: 50px;
+  font-size: 30px;
+  margin-left: 75px;
+  font-family: serif;
+  box-shadow: 5px 5px;
+}
+.btn:hover {
+  background-color: #666;
+}
+
+.btn:active {
+  background-color: red;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

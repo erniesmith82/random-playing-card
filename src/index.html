@@ -1,28 +1,43 @@
 <!DOCTYPE html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
-    <link rel="shortcut icon" href="./4geeks.ico" />
-  </head>
+  <img src="table top.jpg" />
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <audio controls="" preload="auto" autoplay=""
+    style="visibility: hidden;" >
+       <source src="mixkit-payout-award-1934.wav" type="audio/mpeg">
+       </source>
+    </audio>
+    <script src="./app.js"></script>
+    <div class="card">
+      <div class="row">
+        <div id="top"></div>
+        <p id="randomNumber"></p>
+        <div id="bottom"></div>
+      </div>
+      <div>
+        <button
+          type="button"
+          class="btn btn-secondary btn-lg"
+          id="clickMe"
+          value="click"
+          onclick="window.location.reload()"
+        >
+          <strong>DEAL</strong>
+        </button>
+      </div>
+      <div>
+        <button
+          type="button"
+          class="btn btn-secondary btn-lg"
+          id="clickMe2"
+          value="click"
+          onclick="onLoad()"
+        >
+          <strong>STOP</strong>
+        </button>
       </div>
     </div>
   </body>
